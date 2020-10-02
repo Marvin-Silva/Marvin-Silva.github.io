@@ -42,23 +42,19 @@ h1 {
 	float: right;
 	margin-right: 50px;
 	color: #FEFEFE;
-	margin-top: 50px;
-	
+	margin-top: 50px;	
 }
-
 section {
 	
 	height: 1000px;
 	width: 100%;
 }
 .Formation {
-	width: 50%;
+	width: 50.3%;
 	height: 1000px;
-	border: 2px solid transparent;
 	float: left;
-	background-color: #D5A728;
+	background-color: #129A8C;
 }
-
 ul{
 	margin-top: 50px;
 	margin-left: 50px;
@@ -69,29 +65,57 @@ li {
 }
 p {
 	font-weight: bolder;
-
 }
 h3 {
 	font-size: normal;
 }
-
 .Experience{
-   border:2px solid transparent;
+   /**border:2px solid transparent;*/
    float: right;
    width: 49.4%;
-   height: 1000px;
-   background-color: #034D8D;
-   color: #FEFEFE;
+   height: 300px;
+   background-color: #D5A728;
+   color: #010910;
    font-weight: bolder;
+   border:2px solid;  
 }
 span{
-	font-weight: normal;
-
+	font-weight: bolder;
 }
-
 .Experience h3{
 	font-weight: normal;
 }
 .Experience p {
 	font-weight: normal;
+}
+.langue{
+	width: 230px;
+	background-color: #1061A8;
+	float: left;
+	height: 326px;
+	color: #FEFEFE;
+}
+.langue ul{
+	list-style-type: none;
+}
+.langue li {
+	font-size: larger;
+}
+.Interet {
+	width:440px;
+	background-color: #1061A8;
+	float: right;
+	height: 326px;
+	color: #FEFEFE;
+}
+.Interet ul{
+	list-style-type: none;
+
+}
+.Interet li {
+	margin-right: 15px;
+}
+.Editeurs {
+	border:2px solid;
+	float: left;
 }
