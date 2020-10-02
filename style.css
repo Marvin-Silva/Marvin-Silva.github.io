@@ -1,0 +1,97 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body {
+	height: 2000px;
+}
+header {
+	/**position:relative;*/
+	width: 100%;
+	height: 200px;
+	background-color: #090909;
+}
+.tete {
+	position: absolute;
+	width: 100%;
+	height: 200px;
+}
+img{
+	display: block;
+	border-radius: 360px;
+}
+#Photo_Profil{
+	display: block;
+	width: 200px;
+	float: left;	
+	margin-left: 120px;
+	margin-top: 50px;
+}
+#name {
+	margin-top: 50px;
+	width: 500px;
+	margin-left: 35%;
+	color: black;
+}
+h1 {
+	color: #FEFEFE;
+	text-decoration-line: overline;
+}
+.info_perso {
+	display: block;
+	float: right;
+	margin-right: 50px;
+	color: #FEFEFE;
+	margin-top: 50px;
+	
+}
+
+section {
+	
+	height: 1000px;
+	width: 100%;
+}
+.Formation {
+	width: 50%;
+	height: 1000px;
+	border: 2px solid transparent;
+	float: left;
+	background-color: #D5A728;
+}
+
+ul{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+li {
+	margin-top: 5px;
+	margin-left: 25px;
+}
+p {
+	font-weight: bolder;
+
+}
+h3 {
+	font-size: normal;
+}
+
+.Experience{
+   border:2px solid transparent;
+   float: right;
+   width: 49.4%;
+   height: 1000px;
+   background-color: #034D8D;
+   color: #FEFEFE;
+   font-weight: bolder;
+}
+span{
+	font-weight: normal;
+
+}
+
+.Experience h3{
+	font-weight: normal;
+}
+.Experience p {
+	font-weight: normal;
+}
