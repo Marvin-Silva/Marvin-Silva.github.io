@@ -3,7 +3,7 @@
 	padding: 0px;
 }
 body {
-	height: 2000px;
+	height: 1000px;
 }
 header {
 	/**position:relative;*/
@@ -116,6 +116,31 @@ span{
 	margin-right: 15px;
 }
 .Editeurs {
-	border:2px solid;
 	float: left;
+	background-color: #0C3D87;
+	height: 370px;
+	width: 250px;
+	color: #FEFEFE;
+	font-weight: bolder;
+}
+#Presentation {
+	width: 420px;
+	float: right;
+	height: 370px;
+	background-color: #0C3D87;
+	color: #FEFEFE;
+
+}
+#Presentation p{
+	font-size: large;
+}
+#Presentation h2{
+	text-decoration-line: underline;
+}
+.langue img {
+	display: block;
+	float: left;
+}
+#foot {
+	height: 1000px;
 }
